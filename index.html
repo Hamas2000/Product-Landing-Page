@@ -7,7 +7,7 @@
   <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
-/>
+  />
   <title>Product Landing Page</title>
 </head>
 <body>
@@ -15,16 +15,17 @@
     <nav id="nav-bar">
       <div class="logo-container">
         <img
-         src="https://thumbs.dreamstime.com/z/painting-logo-design-isolated-line-art-31263547.jpg?w=992"
-         id="header-img"
+          src="https://thumbs.dreamstime.com/z/painting-logo-design-isolated-line-art-31263547.jpg?w=992"
+          id="header-img"
+          alt="Logo"
         >
         <span class="the-product">Sky Paintings</span>
       </div>
-        <ul class="nav-links">
-          <li><a href="#features" class="nav-link">Features</a></li>
-          <li><a href="paintings" class="nav-link">My paintings</a></li>
-          <li><a href="#sale" class="nav-link">For sale</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#paintings" class="nav-link">My paintings</a></li>
+        <li><a href="#sale" class="nav-link">For sale</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -33,30 +34,61 @@
     <form action="https://www.freecodecamp.com/email-submit" id="form">
       <input id="email" type="email" required placeholder="Enter your email address" name="email">
       <input type="submit" id="submit" value="GET STARTED">
-    </form>  
+    </form>
   </section>
+  
   <section id="features">
     <div class="feature">
       <i class="ri-paint-fill ri-4x icon"></i>
+      <h2>Premium Materials</h2>
+      <p>Our paintings use the highest quality locally sourced materials, ensuring the longevity and vibrancy of your artwork.</p>
     </div>
-    <h2>Premium Materials</h2>
-    <p>Our paintings use the highest quality locally sourced materials, ensuring the longevity and vibrancy of your artwork.
-    </p>
     <div class="feature">
       <i class="ri-truck-line ri-4x icon"></i>
+      <h2>3 Days Shipping</h2>
+      <p>We ensure you receive your painting as soon as it is completed. We also offer free returns if you are not satisfied.</p>
     </div>
-    <h2>3 Days Shipping</h2>
-    <p>We ensure you receive your painting as soon as it is completed. We also offer free returns if you are not satisfied.
-    </p>
     <div class="feature">
       <i class="ri-pass-valid-line ri-4x icon"></i>
+      <h2>Quality Assurance</h2>
+      <p>For every purchase you make, we ensure there are no damages or faults, and we thoroughly inspect the quality of your artwork.</p>
     </div>
-    <h2>Quality Assurance</h2>
-    <p>For every purchase you make, we ensure there are no damages or faults, and we thoroughly inspect the quality of your artwork.
-    </p>
   </section>
-  <section id="guide">
-  <iframe id="video" height="400" src="https://www.youtube.com/embed/udrqgGfMykU?si=5Oxva8ELqY0Ixlre" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <section id="paintings">
+    <iframe id="video" height="400" src="https://www.youtube.com/embed/udrqgGfMykU?si=5Oxva8ELqY0Ixlre" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+
+  <section id="sale" class="for-sale">
+    <h2>For Sale</h2>
+    <div id="product-cards">
+      <div class="card">
+        <div class="product-image product1"></div>
+        <div class="inner-card">
+          <div class="painter">Aleksandr Bolotov</div>
+          <h1 class="header">BLUE TWILIGHT. SKYSCRAPERS. (2020)</h1>
+          <p class="content">Graduating from Donetsk Art College in 2002, he pursued free creativity after publishing work, exhibited widely including solo shows in Kovel (2013), Khartsyzsk (2018), and Chelyabinsk (2018), and designed the coat of arms for the Donetsk People's Republic in 2014.</p>
+          <div class="flex">
+            <p class="main-price">$20.50</p>
+            <p class="old-price">$24.50</p>
+          </div>
+          <button class="add"><p style="margin-left: 5px;">Add to cart</p></button>
+        </div>
+      </div>
+      <div class="product-image product2"></div>
+      <div class="inner-card">
+        <div class="painter">Maria Ivanova</div>
+        <h1 class="header">SUNSET OVER THE OCEAN. (2021)</h1>
+        <p class="content">Graduating from St. Petersburg Art Academy in 2005, she explored various artistic styles, held solo exhibitions in Moscow (2010), Berlin (2015), and Paris (2019), and became renowned for her vibrant seascapes.</p>
+        <div class="flex">
+          <p class="main-price">$30.00</p>
+          <p class="old-price">$35.00</p>
+        </div>
+        <button class="add"><p style="margin-left: 5px;">Add to cart</p></button>
+      </div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
   </section>
 </body>
 </html>
