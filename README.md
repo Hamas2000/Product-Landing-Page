@@ -6,9 +6,9 @@ This product landing page was born out of the necessity for a comprehensive and 
 
 ## Demo 📸
 
-- Take a glimpse of the page below:
+- Take a glimpse of the page below: 
 
-![Product Landing Page] 
+![landing page](https://github.com/Hamas2000/Product-Landing-Page/assets/168201374/b32c2747-7cbd-4208-ba9e-4f00416351e2)
 
 ## Technologies Used 🛠️
 
