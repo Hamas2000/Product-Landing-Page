@@ -57,5 +57,5 @@ This landing page stands out with the following features:
 For inquiries or support, please contact:
 
 - Github: [hamas2000](https://github.com/Hamas2000)
-- LinkedIn: [LinkedIn](http://www.linkedin.com/in/hamasa-noorzai-6787a6196)
+- LinkedIn: [Hamasa Noorzai](http://www.linkedin.com/in/hamasa-noorzai-6787a6196)
 - Email: [Hamasa Noorzai](mailto:hamasa.noorzai2000@gamil.com)
